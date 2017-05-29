@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context="tuananh.com.push.notification.view.activity.MainActivity">
 
@@ -12,7 +13,8 @@
         android:id="@+id/time_picker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:textSize="20sp"/>
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="40sp"/>
 </LinearLayout>
